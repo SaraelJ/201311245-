@@ -4,7 +4,7 @@ import java.awt.geom.Point2D;
 
 public class Draw_Star{
   static Turtle t1 = new Turtle();
-  static Point2D p1 = new Point2D.Double(100.0,200.0);
+  static Point2D p1 = new Point2D.Double(10.0,20.0);
   
   
   public static void drawStar(int size,double x,double y){

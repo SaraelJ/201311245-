@@ -1,0 +1,23 @@
+public class Temperature{
+	public static void main(String[] args){
+		Temperature c=new Temperature();
+		c.Temper(28.0f, "C");
+		Temperature f=new Temperature();
+		f.Temper(108.0f, "F");
+	}
+
+	public void Temper(String s, float d){
+		double c;
+		if (s.equals("F")){
+			c=(d-32)/1.8;
+			System.out.println(d+s+"->"+c+"C");
+		}
+		else if (s.equals("C")) {
+			c=(d*1.8)+32;
+			System.out.println(d+s+"->"+c+"F");
+		}
+		else{
+			System.out.println("It's not correct");
+		}
+	}
+}
